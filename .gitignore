@@ -1,0 +1,4 @@
+# ForecastLedger
+
+Read-only artifact distribution: ledger snapshots, per-horizon scorecards, MCP release manifests. Critical decision-making data points, not advice.
+See the source repository: https://github.com/asimovius/forecast-ledger
