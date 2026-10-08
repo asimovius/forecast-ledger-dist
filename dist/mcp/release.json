@@ -1,32 +1,32 @@
 {
-  "generated_ts": 1791676800,
-  "registry_start": "2026-10-01",
+  "generated_ts": "2026-10-08 18:00:41 UTC",
+  "registry_start": "2026-09-20 18:00 UTC",
   "horizons": {
     "24h": {
-      "n_graded": 2,
-      "hit_rate": 0.5,
-      "brier": 0.236,
+      "n_graded": 12,
+      "hit_rate": 0.5833,
+      "brier": 0.2425,
       "baseline_brier": 0.25,
-      "armed": true
+      "armed": false
     },
     "3d": {
-      "n_graded": 1,
-      "hit_rate": 1.0,
-      "brier": 0.09,
+      "n_graded": 4,
+      "hit_rate": 0.75,
+      "brier": 0.25,
       "baseline_brier": 0.25,
       "armed": false
     },
     "7d": {
-      "n_graded": 0,
-      "hit_rate": null,
-      "brier": null,
+      "n_graded": 3,
+      "hit_rate": 0.3333,
+      "brier": 0.2342,
       "baseline_brier": 0.25,
       "armed": false
     },
     "4w": {
-      "n_graded": 0,
-      "hit_rate": null,
-      "brier": null,
+      "n_graded": 1,
+      "hit_rate": 1.0,
+      "brier": 0.2025,
       "baseline_brier": 0.25,
       "armed": false
     }
