@@ -1,5 +1,5 @@
 {
-  "anchored_to_last_snapshot_utc": "2026-10-10 00:00:41 UTC",
+  "anchored_to_last_snapshot_utc": "2026-10-10 06:00:41 UTC",
   "call_inception_summary": {
     "pre_production_inherited": 3,
     "production_born": 23
@@ -537,7 +537,7 @@
     "reports_with_production_label": 39
   },
   "coverage": {
-    "coverage_end_utc": "2026-10-10 00:00 UTC",
+    "coverage_end_utc": "2026-10-10 06:00 UTC",
     "coverage_start_utc": "2026-09-20 18:00 UTC",
     "first_production_report": "2026-09-20_15-52-09.md",
     "pre_production_era_note": "The registry covers the production era only. It starts at the first production-era cycle (the earliest report whose header carries a DB-snapshot label) and does not retro-claim older (pre-production) cycles. Calls stated in pre-production reports but republished under a production DB-snapshot label are flagged inception_provenance=pre-production-inherited.",
@@ -626,8 +626,8 @@
   "registry": "ForecastLedger",
   "schema_version": "1.0",
   "snapshot_cadence": {
-    "cycles_per_day_recent": 3.3,
-    "description": "collector cycles run on a fixed-hour grid; resolved price = first cycle at or after expiry. Recent archive rate: about 3.3 cycles/day (grid hours above cover the whole archive era).",
+    "cycles_per_day_recent": 3.4,
+    "description": "collector cycles run on a fixed-hour grid; resolved price = first cycle at or after expiry. Recent archive rate: about 3.4 cycles/day (grid hours above cover the whole archive era).",
     "max_observed_resolution_lag_hours": 27.0,
     "observed_hours_utc": [
       0,
