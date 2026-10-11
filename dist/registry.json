@@ -1,8 +1,8 @@
 {
-  "anchored_to_last_snapshot_utc": "2026-10-10 18:00:41 UTC",
+  "anchored_to_last_snapshot_utc": "2026-10-11 00:00:41 UTC",
   "call_inception_summary": {
     "pre_production_inherited": 3,
-    "production_born": 23
+    "production_born": 24
   },
   "calls": [
     {
@@ -446,6 +446,26 @@
       "verdict": "inside band"
     },
     {
+      "band_hi_usd": 83800,
+      "band_lo_usd": 82000,
+      "call_id": "24h:2026-10-11 09:02 UTC",
+      "direction": "Bullish",
+      "expires_utc": "2026-10-11 09:02:00 UTC",
+      "horizon": "24h",
+      "inception_first_seen_report": "2026-10-10_15-02-20.md",
+      "inception_label_utc": "2026-10-10 18:00 UTC",
+      "inception_provenance": "production",
+      "inception_report": "2026-10-10_15-02-20.md",
+      "inception_snapshot_utc": "2026-10-10 18:00:41 UTC",
+      "outcome_inside": null,
+      "prob_pct": 55,
+      "resolution_lag_hours": null,
+      "resolved_price_usd": null,
+      "resolved_snapshot_utc": null,
+      "status": "open",
+      "verdict": null
+    },
+    {
       "band_hi_usd": 85500,
       "band_lo_usd": 81000,
       "call_id": "3d:2026-10-12 09:02 UTC",
@@ -527,17 +547,17 @@
     }
   ],
   "corpus": {
-    "declared_calls": 26,
+    "declared_calls": 27,
     "declared_with_unparseable_expiry": 0,
     "report_dirs_scanned": [
       "v3-current",
       "legacy"
     ],
-    "reports_deduped": 138,
-    "reports_with_production_label": 40
+    "reports_deduped": 139,
+    "reports_with_production_label": 41
   },
   "coverage": {
-    "coverage_end_utc": "2026-10-10 18:00 UTC",
+    "coverage_end_utc": "2026-10-11 00:00 UTC",
     "coverage_start_utc": "2026-09-20 18:00 UTC",
     "first_production_report": "2026-09-20_15-52-09.md",
     "pre_production_era_note": "The registry covers the production era only. It starts at the first production-era cycle (the earliest report whose header carries a DB-snapshot label) and does not retro-claim older (pre-production) cycles. Calls stated in pre-production reports but republished under a production DB-snapshot label are flagged inception_provenance=pre-production-inherited.",
@@ -587,7 +607,7 @@
       "hit_rate": 0.6154,
       "min_n": 14,
       "n_inside_band": 8,
-      "n_open": 0,
+      "n_open": 1,
       "n_outside_window": 0,
       "n_resolved": 13
     },
@@ -646,8 +666,8 @@
   },
   "summary": {
     "determinism_note": "byte-identical output expected across runs on the same snapshot archive",
-    "n_calls_total": 26,
-    "n_open": 4,
+    "n_calls_total": 27,
+    "n_open": 5,
     "n_outside_window": 0,
     "n_resolved": 22
   }
