@@ -1,13 +1,13 @@
 {
-  "generated_ts": "2026-10-11 06:00:41 UTC",
+  "generated_ts": "2026-10-11 12:00:41 UTC",
   "registry_start": "2026-09-20 18:00 UTC",
   "horizons": {
     "24h": {
-      "n_graded": 13,
-      "hit_rate": 0.6154,
-      "brier": 0.2431,
+      "n_graded": 14,
+      "hit_rate": 0.6429,
+      "brier": 0.2402,
       "baseline_brier": 0.25,
-      "armed": false
+      "armed": true
     },
     "3d": {
       "n_graded": 5,
