@@ -1,5 +1,5 @@
 {
-  "anchored_to_last_snapshot_utc": "2026-10-12 06:00:41 UTC",
+  "anchored_to_last_snapshot_utc": "2026-10-12 12:00:41 UTC",
   "call_inception_summary": {
     "pre_production_inherited": 3,
     "production_born": 24
@@ -477,13 +477,13 @@
       "inception_provenance": "production",
       "inception_report": "2026-10-09_15-01-55.md",
       "inception_snapshot_utc": "2026-10-09 18:00:41 UTC",
-      "outcome_inside": null,
+      "outcome_inside": 1.0,
       "prob_pct": 55,
-      "resolution_lag_hours": null,
-      "resolved_price_usd": null,
-      "resolved_snapshot_utc": null,
-      "status": "open",
-      "verdict": null
+      "resolution_lag_hours": 2.98,
+      "resolved_price_usd": 83354.0,
+      "resolved_snapshot_utc": "2026-10-12 12:00:41 UTC",
+      "status": "resolved",
+      "verdict": "inside band"
     },
     {
       "band_hi_usd": 88500,
@@ -557,7 +557,7 @@
     "reports_with_production_label": 42
   },
   "coverage": {
-    "coverage_end_utc": "2026-10-12 06:00 UTC",
+    "coverage_end_utc": "2026-10-12 12:00 UTC",
     "coverage_start_utc": "2026-09-20 18:00 UTC",
     "first_production_report": "2026-09-20_15-52-09.md",
     "pre_production_era_note": "The registry covers the production era only. It starts at the first production-era cycle (the earliest report whose header carries a DB-snapshot label) and does not retro-claim older (pre-production) cycles. Calls stated in pre-production reports but republished under a production DB-snapshot label are flagged inception_provenance=pre-production-inherited.",
@@ -613,13 +613,13 @@
     },
     "3d": {
       "armed": false,
-      "brier": 0.2605,
-      "hit_rate": 0.6,
+      "brier": 0.2508,
+      "hit_rate": 0.6667,
       "min_n": 10,
-      "n_inside_band": 3,
-      "n_open": 1,
+      "n_inside_band": 4,
+      "n_open": 0,
       "n_outside_window": 0,
-      "n_resolved": 5
+      "n_resolved": 6
     },
     "4w": {
       "armed": false,
@@ -646,8 +646,8 @@
   "registry": "ForecastLedger",
   "schema_version": "1.0",
   "snapshot_cadence": {
-    "cycles_per_day_recent": 3.7,
-    "description": "collector cycles run on a fixed-hour grid; resolved price = first cycle at or after expiry. Recent archive rate: about 3.7 cycles/day (grid hours above cover the whole archive era).",
+    "cycles_per_day_recent": 3.9,
+    "description": "collector cycles run on a fixed-hour grid; resolved price = first cycle at or after expiry. Recent archive rate: about 3.9 cycles/day (grid hours above cover the whole archive era).",
     "max_observed_resolution_lag_hours": 27.0,
     "observed_hours_utc": [
       0,
@@ -667,8 +667,8 @@
   "summary": {
     "determinism_note": "byte-identical output expected across runs on the same snapshot archive",
     "n_calls_total": 27,
-    "n_open": 4,
+    "n_open": 3,
     "n_outside_window": 0,
-    "n_resolved": 23
+    "n_resolved": 24
   }
 }
