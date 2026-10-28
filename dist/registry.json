@@ -1,5 +1,5 @@
 {
-  "anchored_to_last_snapshot_utc": "2026-10-28 00:00:46 UTC",
+  "anchored_to_last_snapshot_utc": "2026-10-28 06:00:46 UTC",
   "call_inception_summary": {
     "pre_production_inherited": 3,
     "production_born": 24
@@ -557,7 +557,7 @@
     "reports_with_production_label": 40
   },
   "coverage": {
-    "coverage_end_utc": "2026-10-28 00:00 UTC",
+    "coverage_end_utc": "2026-10-28 06:00 UTC",
     "coverage_start_utc": "2026-09-20 18:00 UTC",
     "first_production_report": "2026-09-20_15-52-09.md",
     "pre_production_era_note": "The registry covers the production era only. It starts at the first production-era cycle (the earliest report whose header carries a DB-snapshot label) and does not retro-claim older (pre-production) cycles. Calls stated in pre-production reports but republished under a production DB-snapshot label are flagged inception_provenance=pre-production-inherited.",
